@@ -1,0 +1,41 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+@font-face {
+    font-family: texgyreheroscn-bold;
+    src: url('../fonts/texgyreheroscn-bold.otf');
+}
+.container {
+    display: flex;
+    font-family: texgyreheroscn-bold ;
+}
+
+#ui {
+background-color: white;
+width: 20vw;
+height: 100vh;
+}
+ h1 {
+font-size: 2em;
+ }
+
+ label {
+    font-size: 1em;
+ }
+ .components {
+    padding: 2em;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+ }
+
+#canvasWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 100vh;
+    background-color: gray;
+}
